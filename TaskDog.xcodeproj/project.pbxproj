@@ -6,8 +6,24 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		F6DFD9522F04755300517996 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DFD9512F04754C00517996 /* ContentView.swift */; };
+		F6DFD9552F04758000517996 /* TaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DFD9542F04757A00517996 /* TaskListView.swift */; };
+		F6DFD9572F0475A000517996 /* TaskItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DFD9562F04759D00517996 /* TaskItem.swift */; };
+		F6DFD9592F0475DC00517996 /* TaskRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DFD9582F0475D700517996 /* TaskRowView.swift */; };
+		F6DFD95B2F0475F300517996 /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DFD95A2F0475F300517996 /* AddTaskView.swift */; };
+		F6DFD95D2F04760600517996 /* TaskTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DFD95C2F04760600517996 /* TaskTrackerApp.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
-		F6DFD9432F04748000517996 /* TaskTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6DFD9432F04748000517996 /* TaskDog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskDog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6DFD9512F04754C00517996 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F6DFD9532F04755900517996 /* TaskTracker-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TaskTracker-Bridging-Header.h"; sourceTree = "<group>"; };
+		F6DFD9542F04757A00517996 /* TaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListView.swift; sourceTree = "<group>"; };
+		F6DFD9562F04759D00517996 /* TaskItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskItem.swift; sourceTree = "<group>"; };
+		F6DFD9582F0475D700517996 /* TaskRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRowView.swift; sourceTree = "<group>"; };
+		F6DFD95A2F0475F300517996 /* AddTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
+		F6DFD95C2F04760600517996 /* TaskTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTrackerApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -34,13 +50,20 @@
 			children = (
 				F6DFD9452F04748000517996 /* TaskTracker */,
 				F6DFD9442F04748000517996 /* Products */,
+				F6DFD9512F04754C00517996 /* ContentView.swift */,
+				F6DFD9562F04759D00517996 /* TaskItem.swift */,
+				F6DFD9582F0475D700517996 /* TaskRowView.swift */,
+				F6DFD95A2F0475F300517996 /* AddTaskView.swift */,
+				F6DFD95C2F04760600517996 /* TaskTrackerApp.swift */,
+				F6DFD9542F04757A00517996 /* TaskListView.swift */,
+				F6DFD9532F04755900517996 /* TaskTracker-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
 		F6DFD9442F04748000517996 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F6DFD9432F04748000517996 /* TaskTracker.app */,
+				F6DFD9432F04748000517996 /* TaskDog.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,9 +71,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F6DFD9422F04748000517996 /* TaskTracker */ = {
+		F6DFD9422F04748000517996 /* TaskDog */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F6DFD94E2F04748100517996 /* Build configuration list for PBXNativeTarget "TaskTracker" */;
+			buildConfigurationList = F6DFD94E2F04748100517996 /* Build configuration list for PBXNativeTarget "TaskDog" */;
 			buildPhases = (
 				F6DFD93F2F04748000517996 /* Sources */,
 				F6DFD9402F04748000517996 /* Frameworks */,
@@ -63,11 +86,11 @@
 			fileSystemSynchronizedGroups = (
 				F6DFD9452F04748000517996 /* TaskTracker */,
 			);
-			name = TaskTracker;
+			name = TaskDog;
 			packageProductDependencies = (
 			);
 			productName = TaskTracker;
-			productReference = F6DFD9432F04748000517996 /* TaskTracker.app */;
+			productReference = F6DFD9432F04748000517996 /* TaskDog.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -82,10 +105,11 @@
 				TargetAttributes = {
 					F6DFD9422F04748000517996 = {
 						CreatedOnToolsVersion = 26.2;
+						LastSwiftMigration = 2620;
 					};
 				};
 			};
-			buildConfigurationList = F6DFD93E2F04748000517996 /* Build configuration list for PBXProject "TaskTracker" */;
+			buildConfigurationList = F6DFD93E2F04748000517996 /* Build configuration list for PBXProject "TaskDog" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -99,7 +123,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F6DFD9422F04748000517996 /* TaskTracker */,
+				F6DFD9422F04748000517996 /* TaskDog */,
 			);
 		};
 /* End PBXProject section */
@@ -119,6 +143,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6DFD9522F04755300517996 /* ContentView.swift in Sources */,
+				F6DFD95B2F0475F300517996 /* AddTaskView.swift in Sources */,
+				F6DFD9572F0475A000517996 /* TaskItem.swift in Sources */,
+				F6DFD95D2F04760600517996 /* TaskTrackerApp.swift in Sources */,
+				F6DFD9592F0475DC00517996 /* TaskRowView.swift in Sources */,
+				F6DFD9552F04758000517996 /* TaskListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,8 +279,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 565HNJU8D6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -269,6 +302,8 @@
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "TaskTracker-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -280,8 +315,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 565HNJU8D6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -300,6 +338,7 @@
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "TaskTracker-Bridging-Header.h";
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -309,7 +348,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F6DFD93E2F04748000517996 /* Build configuration list for PBXProject "TaskTracker" */ = {
+		F6DFD93E2F04748000517996 /* Build configuration list for PBXProject "TaskDog" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F6DFD94C2F04748100517996 /* Debug */,
@@ -318,7 +357,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F6DFD94E2F04748100517996 /* Build configuration list for PBXNativeTarget "TaskTracker" */ = {
+		F6DFD94E2F04748100517996 /* Build configuration list for PBXNativeTarget "TaskDog" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F6DFD94F2F04748100517996 /* Debug */,

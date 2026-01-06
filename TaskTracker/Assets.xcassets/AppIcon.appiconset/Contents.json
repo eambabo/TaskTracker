@@ -1,6 +1,7 @@
 {
   "images" : [
     {
+      "filename" : "TaskDog.png",
       "idiom" : "universal",
       "platform" : "ios",
       "size" : "1024x1024"
@@ -12,6 +13,7 @@
           "value" : "dark"
         }
       ],
+      "filename" : "TaskDogDark.png",
       "idiom" : "universal",
       "platform" : "ios",
       "size" : "1024x1024"
