@@ -56,6 +56,10 @@ struct AddTaskView: View {
     private func saveTask() {
         let newTask = TaskItem(title: title, priority: priority, dueDate: hasDueDate ? dueDate : nil)
         modelContext.insert(newTask)
+        
+        // Schedule notification if needed
+        NotificationManager.shared.scheduleTaskDueDateNotification(for: newTask)
+        
         dismiss()
     }
 }
