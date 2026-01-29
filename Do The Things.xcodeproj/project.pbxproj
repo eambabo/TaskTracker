@@ -37,7 +37,7 @@
 		A1000002300000000000009 /* TaskExtractionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskExtractionManager.swift; sourceTree = "<group>"; };
 		A1000002300000000000010 /* TaskReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskReviewView.swift; sourceTree = "<group>"; };
 		A1000002300000000000011 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F6DFD9432F04748000517996 /* TaskDog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskDog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6DFD9432F04748000517996 /* Do The Things.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Do The Things.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6DFD9512F04754C00517996 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F6DFD9532F04755900517996 /* TaskTracker-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TaskTracker-Bridging-Header.h"; sourceTree = "<group>"; };
 		F6DFD9542F04757A00517996 /* TaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListView.swift; sourceTree = "<group>"; };
@@ -95,7 +95,7 @@
 		F6DFD9442F04748000517996 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F6DFD9432F04748000517996 /* TaskDog.app */,
+				F6DFD9432F04748000517996 /* Do The Things.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,9 +103,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F6DFD9422F04748000517996 /* TaskDog */ = {
+		F6DFD9422F04748000517996 /* Do The Things */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F6DFD94E2F04748100517996 /* Build configuration list for PBXNativeTarget "TaskDog" */;
+			buildConfigurationList = F6DFD94E2F04748100517996 /* Build configuration list for PBXNativeTarget "Do The Things" */;
 			buildPhases = (
 				F6DFD93F2F04748000517996 /* Sources */,
 				F6DFD9402F04748000517996 /* Frameworks */,
@@ -118,11 +118,11 @@
 			fileSystemSynchronizedGroups = (
 				F6DFD9452F04748000517996 /* TaskTracker */,
 			);
-			name = TaskDog;
+			name = "Do The Things";
 			packageProductDependencies = (
 			);
 			productName = TaskTracker;
-			productReference = F6DFD9432F04748000517996 /* TaskDog.app */;
+			productReference = F6DFD9432F04748000517996 /* Do The Things.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -155,7 +155,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F6DFD9422F04748000517996 /* TaskDog */,
+				F6DFD9422F04748000517996 /* Do The Things */,
 			);
 		};
 /* End PBXProject section */
@@ -326,7 +326,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 565HNJU8D6;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Do The Thing";
@@ -345,7 +349,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = dadapps.TaskTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -367,7 +376,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 565HNJU8D6;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Do The Thing";
@@ -384,9 +397,14 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = dadapps.TaskTracker;
+				PRODUCT_BUNDLE_IDENTIFIER = dadapps.DTT;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -409,7 +427,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F6DFD94E2F04748100517996 /* Build configuration list for PBXNativeTarget "TaskDog" */ = {
+		F6DFD94E2F04748100517996 /* Build configuration list for PBXNativeTarget "Do The Things" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F6DFD94F2F04748100517996 /* Debug */,
