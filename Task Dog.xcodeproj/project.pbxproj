@@ -37,7 +37,7 @@
 		A1000002300000000000009 /* TaskExtractionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskExtractionManager.swift; sourceTree = "<group>"; };
 		A1000002300000000000010 /* TaskReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskReviewView.swift; sourceTree = "<group>"; };
 		A1000002300000000000011 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F6DFD9432F04748000517996 /* Agent Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Agent Task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6DFD9432F04748000517996 /* Task Dog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Task Dog.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6DFD9512F04754C00517996 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F6DFD9532F04755900517996 /* TaskTracker-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TaskTracker-Bridging-Header.h"; sourceTree = "<group>"; };
 		F6DFD9542F04757A00517996 /* TaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListView.swift; sourceTree = "<group>"; };
@@ -95,7 +95,7 @@
 		F6DFD9442F04748000517996 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F6DFD9432F04748000517996 /* Agent Task.app */,
+				F6DFD9432F04748000517996 /* Task Dog.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,9 +103,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F6DFD9422F04748000517996 /* Agent Task */ = {
+		F6DFD9422F04748000517996 /* Task Dog */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F6DFD94E2F04748100517996 /* Build configuration list for PBXNativeTarget "Agent Task" */;
+			buildConfigurationList = F6DFD94E2F04748100517996 /* Build configuration list for PBXNativeTarget "Task Dog" */;
 			buildPhases = (
 				F6DFD93F2F04748000517996 /* Sources */,
 				F6DFD9402F04748000517996 /* Frameworks */,
@@ -118,11 +118,11 @@
 			fileSystemSynchronizedGroups = (
 				F6DFD9452F04748000517996 /* TaskTracker */,
 			);
-			name = "Agent Task";
+			name = "Task Dog";
 			packageProductDependencies = (
 			);
 			productName = TaskTracker;
-			productReference = F6DFD9432F04748000517996 /* Agent Task.app */;
+			productReference = F6DFD9432F04748000517996 /* Task Dog.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -141,7 +141,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F6DFD93E2F04748000517996 /* Build configuration list for PBXProject "Agent Task" */;
+			buildConfigurationList = F6DFD93E2F04748000517996 /* Build configuration list for PBXProject "Task Dog" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -155,7 +155,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F6DFD9422F04748000517996 /* Agent Task */,
+				F6DFD9422F04748000517996 /* Task Dog */,
 			);
 		};
 /* End PBXProject section */
@@ -418,7 +418,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F6DFD93E2F04748000517996 /* Build configuration list for PBXProject "Agent Task" */ = {
+		F6DFD93E2F04748000517996 /* Build configuration list for PBXProject "Task Dog" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F6DFD94C2F04748100517996 /* Debug */,
@@ -427,7 +427,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F6DFD94E2F04748100517996 /* Build configuration list for PBXNativeTarget "Agent Task" */ = {
+		F6DFD94E2F04748100517996 /* Build configuration list for PBXNativeTarget "Task Dog" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F6DFD94F2F04748100517996 /* Debug */,
