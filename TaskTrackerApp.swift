@@ -15,6 +15,7 @@ struct TaskTrackerApp: App {
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
             TaskItem.self,
+            AudioNote.self,
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 

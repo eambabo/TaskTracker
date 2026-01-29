@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A1000001300000000000001 /* AudioNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000002300000000000001 /* AudioNote.swift */; };
+		A1000001300000000000002 /* AudioNoteDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000002300000000000002 /* AudioNoteDetailView.swift */; };
+		A1000001300000000000003 /* AudioNoteRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000002300000000000003 /* AudioNoteRowView.swift */; };
+		A1000001300000000000004 /* AudioNotesTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000002300000000000004 /* AudioNotesTab.swift */; };
+		A1000001300000000000005 /* AudioPlayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000002300000000000005 /* AudioPlayerManager.swift */; };
+		A1000001300000000000006 /* AudioRecorderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000002300000000000006 /* AudioRecorderManager.swift */; };
+		A1000001300000000000007 /* RecordingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000002300000000000007 /* RecordingView.swift */; };
+		A1000001300000000000008 /* SpeechRecognitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000002300000000000008 /* SpeechRecognitionManager.swift */; };
+		A1000001300000000000009 /* TaskExtractionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000002300000000000009 /* TaskExtractionManager.swift */; };
+		A1000001300000000000010 /* TaskReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000002300000000000010 /* TaskReviewView.swift */; };
 		F6DFD9522F04755300517996 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DFD9512F04754C00517996 /* ContentView.swift */; };
 		F6DFD9552F04758000517996 /* TaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DFD9542F04757A00517996 /* TaskListView.swift */; };
 		F6DFD9572F0475A000517996 /* TaskItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DFD9562F04759D00517996 /* TaskItem.swift */; };
@@ -16,6 +26,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A1000002300000000000001 /* AudioNote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioNote.swift; sourceTree = "<group>"; };
+		A1000002300000000000002 /* AudioNoteDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioNoteDetailView.swift; sourceTree = "<group>"; };
+		A1000002300000000000003 /* AudioNoteRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioNoteRowView.swift; sourceTree = "<group>"; };
+		A1000002300000000000004 /* AudioNotesTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioNotesTab.swift; sourceTree = "<group>"; };
+		A1000002300000000000005 /* AudioPlayerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerManager.swift; sourceTree = "<group>"; };
+		A1000002300000000000006 /* AudioRecorderManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioRecorderManager.swift; sourceTree = "<group>"; };
+		A1000002300000000000007 /* RecordingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingView.swift; sourceTree = "<group>"; };
+		A1000002300000000000008 /* SpeechRecognitionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognitionManager.swift; sourceTree = "<group>"; };
+		A1000002300000000000009 /* TaskExtractionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskExtractionManager.swift; sourceTree = "<group>"; };
+		A1000002300000000000010 /* TaskReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskReviewView.swift; sourceTree = "<group>"; };
+		A1000002300000000000011 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F6DFD9432F04748000517996 /* TaskDog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskDog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6DFD9512F04754C00517996 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F6DFD9532F04755900517996 /* TaskTracker-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TaskTracker-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -57,6 +78,17 @@
 				F6DFD95C2F04760600517996 /* TaskTrackerApp.swift */,
 				F6DFD9542F04757A00517996 /* TaskListView.swift */,
 				F6DFD9532F04755900517996 /* TaskTracker-Bridging-Header.h */,
+				A1000002300000000000001 /* AudioNote.swift */,
+				A1000002300000000000002 /* AudioNoteDetailView.swift */,
+				A1000002300000000000003 /* AudioNoteRowView.swift */,
+				A1000002300000000000004 /* AudioNotesTab.swift */,
+				A1000002300000000000005 /* AudioPlayerManager.swift */,
+				A1000002300000000000006 /* AudioRecorderManager.swift */,
+				A1000002300000000000007 /* RecordingView.swift */,
+				A1000002300000000000008 /* SpeechRecognitionManager.swift */,
+				A1000002300000000000009 /* TaskExtractionManager.swift */,
+				A1000002300000000000010 /* TaskReviewView.swift */,
+				A1000002300000000000011 /* Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,7 +141,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F6DFD93E2F04748000517996 /* Build configuration list for PBXProject "TaskDog" */;
+			buildConfigurationList = F6DFD93E2F04748000517996 /* Build configuration list for PBXProject "Do The Things" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -149,6 +181,16 @@
 				F6DFD95D2F04760600517996 /* TaskTrackerApp.swift in Sources */,
 				F6DFD9592F0475DC00517996 /* TaskRowView.swift in Sources */,
 				F6DFD9552F04758000517996 /* TaskListView.swift in Sources */,
+				A1000001300000000000001 /* AudioNote.swift in Sources */,
+				A1000001300000000000002 /* AudioNoteDetailView.swift in Sources */,
+				A1000001300000000000003 /* AudioNoteRowView.swift in Sources */,
+				A1000001300000000000004 /* AudioNotesTab.swift in Sources */,
+				A1000001300000000000005 /* AudioPlayerManager.swift in Sources */,
+				A1000001300000000000006 /* AudioRecorderManager.swift in Sources */,
+				A1000001300000000000007 /* RecordingView.swift in Sources */,
+				A1000001300000000000008 /* SpeechRecognitionManager.swift in Sources */,
+				A1000001300000000000009 /* TaskExtractionManager.swift in Sources */,
+				A1000001300000000000010 /* TaskReviewView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +328,11 @@
 				DEVELOPMENT_TEAM = 565HNJU8D6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Do The Thing";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "TaskTracker needs microphone access to record voice memos that can be transcribed into tasks.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "TaskTracker uses speech recognition to transcribe your voice memos into text for task extraction.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -322,6 +369,11 @@
 				DEVELOPMENT_TEAM = 565HNJU8D6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Do The Thing";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "TaskTracker needs microphone access to record voice memos that can be transcribed into tasks.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "TaskTracker uses speech recognition to transcribe your voice memos into text for task extraction.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -348,7 +400,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F6DFD93E2F04748000517996 /* Build configuration list for PBXProject "TaskDog" */ = {
+		F6DFD93E2F04748000517996 /* Build configuration list for PBXProject "Do The Things" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F6DFD94C2F04748100517996 /* Debug */,

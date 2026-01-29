@@ -7,10 +7,15 @@ struct ContentView: View {
                 .tabItem {
                     Label("To Do", systemImage: "checklist")
                 }
-            
+
             TaskListView(showCompleted: true)
                 .tabItem {
                     Label("Done", systemImage: "checkmark.circle")
+                }
+
+            AudioNotesTab()
+                .tabItem {
+                    Label("Audio Notes", systemImage: "waveform")
                 }
         }
     }
