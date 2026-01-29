@@ -16,9 +16,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F6DFD9422F04748000517996"
-               BuildableName = "Task Dog.app"
-               BlueprintName = "Task Dog"
-               ReferencedContainer = "container:Task Dog.xcodeproj">
+               BuildableName = "TaskStuff.app"
+               BlueprintName = "TaskStuff"
+               ReferencedContainer = "container:TaskStuff.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,9 +45,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F6DFD9422F04748000517996"
-            BuildableName = "Task Dog.app"
-            BlueprintName = "Task Dog"
-            ReferencedContainer = "container:Task Dog.xcodeproj">
+            BuildableName = "TaskStuff.app"
+            BlueprintName = "TaskStuff"
+            ReferencedContainer = "container:TaskStuff.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F6DFD9422F04748000517996"
-            BuildableName = "Task Dog.app"
-            BlueprintName = "Task Dog"
-            ReferencedContainer = "container:Task Dog.xcodeproj">
+            BuildableName = "TaskStuff.app"
+            BlueprintName = "TaskStuff"
+            ReferencedContainer = "container:TaskStuff.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
