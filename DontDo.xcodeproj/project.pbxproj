@@ -37,7 +37,7 @@
 		A1000002300000000000009 /* TaskExtractionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskExtractionManager.swift; sourceTree = "<group>"; };
 		A1000002300000000000010 /* TaskReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskReviewView.swift; sourceTree = "<group>"; };
 		A1000002300000000000011 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F6DFD9432F04748000517996 /* TaskStuff.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TaskStuff.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6DFD9432F04748000517996 /* DontDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DontDo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6DFD9512F04754C00517996 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F6DFD9532F04755900517996 /* TaskTracker-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TaskTracker-Bridging-Header.h"; sourceTree = "<group>"; };
 		F6DFD9542F04757A00517996 /* TaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListView.swift; sourceTree = "<group>"; };
@@ -95,7 +95,7 @@
 		F6DFD9442F04748000517996 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F6DFD9432F04748000517996 /* TaskStuff.app */,
+				F6DFD9432F04748000517996 /* DontDo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,9 +103,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F6DFD9422F04748000517996 /* TaskStuff */ = {
+		F6DFD9422F04748000517996 /* DontDo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F6DFD94E2F04748100517996 /* Build configuration list for PBXNativeTarget "TaskStuff" */;
+			buildConfigurationList = F6DFD94E2F04748100517996 /* Build configuration list for PBXNativeTarget "DontDo" */;
 			buildPhases = (
 				F6DFD93F2F04748000517996 /* Sources */,
 				F6DFD9402F04748000517996 /* Frameworks */,
@@ -118,11 +118,11 @@
 			fileSystemSynchronizedGroups = (
 				F6DFD9452F04748000517996 /* TaskTracker */,
 			);
-			name = "TaskStuff";
+			name = "DontDo";
 			packageProductDependencies = (
 			);
 			productName = TaskTracker;
-			productReference = F6DFD9432F04748000517996 /* TaskStuff.app */;
+			productReference = F6DFD9432F04748000517996 /* DontDo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -141,7 +141,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F6DFD93E2F04748000517996 /* Build configuration list for PBXProject "TaskStuff" */;
+			buildConfigurationList = F6DFD93E2F04748000517996 /* Build configuration list for PBXProject "DontDo" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -155,7 +155,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F6DFD9422F04748000517996 /* TaskStuff */,
+				F6DFD9422F04748000517996 /* DontDo */,
 			);
 		};
 /* End PBXProject section */
@@ -333,7 +333,7 @@
 				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = TaskStuff;
+				INFOPLIST_KEY_CFBundleDisplayName = "Don't Do";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "TaskTracker needs microphone access to record voice memos that can be transcribed into tasks.";
 				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "TaskTracker uses speech recognition to transcribe your voice memos into text for task extraction.";
@@ -383,7 +383,7 @@
 				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = TaskStuff;
+				INFOPLIST_KEY_CFBundleDisplayName = "Don't Do";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "TaskTracker needs microphone access to record voice memos that can be transcribed into tasks.";
 				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "TaskTracker uses speech recognition to transcribe your voice memos into text for task extraction.";
@@ -418,7 +418,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F6DFD93E2F04748000517996 /* Build configuration list for PBXProject "TaskStuff" */ = {
+		F6DFD93E2F04748000517996 /* Build configuration list for PBXProject "DontDo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F6DFD94C2F04748100517996 /* Debug */,
@@ -427,7 +427,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F6DFD94E2F04748100517996 /* Build configuration list for PBXNativeTarget "TaskStuff" */ = {
+		F6DFD94E2F04748100517996 /* Build configuration list for PBXNativeTarget "DontDo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F6DFD94F2F04748100517996 /* Debug */,

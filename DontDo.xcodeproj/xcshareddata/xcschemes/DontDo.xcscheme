@@ -16,9 +16,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F6DFD9422F04748000517996"
-               BuildableName = "TaskStuff.app"
-               BlueprintName = "TaskStuff"
-               ReferencedContainer = "container:TaskStuff.xcodeproj">
+               BuildableName = "DontDo.app"
+               BlueprintName = "DontDo"
+               ReferencedContainer = "container:DontDo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,9 +45,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F6DFD9422F04748000517996"
-            BuildableName = "TaskStuff.app"
-            BlueprintName = "TaskStuff"
-            ReferencedContainer = "container:TaskStuff.xcodeproj">
+            BuildableName = "DontDo.app"
+            BlueprintName = "DontDo"
+            ReferencedContainer = "container:DontDo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F6DFD9422F04748000517996"
-            BuildableName = "TaskStuff.app"
-            BlueprintName = "TaskStuff"
-            ReferencedContainer = "container:TaskStuff.xcodeproj">
+            BuildableName = "DontDo.app"
+            BlueprintName = "DontDo"
+            ReferencedContainer = "container:DontDo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
